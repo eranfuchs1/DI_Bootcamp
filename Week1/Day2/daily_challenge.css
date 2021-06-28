@@ -1,0 +1,23 @@
+@media all and (max-width: 700px) {
+    body {
+        text-align: center;
+        color: magenta;
+    }
+}
+
+body {
+    background-image: url(/home/xer/Documents/programming/bootcamp/day1/img/ronin.jpg);
+}
+
+.second_image {
+    position: relative;
+    left: 800px;
+    top: 100px;
+}
+
+ul {
+    height: 30px;
+    width: 100%;
+    background-color: lightsteelblue;
+    margin: 0;
+}
