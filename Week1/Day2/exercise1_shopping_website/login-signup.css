@@ -1,0 +1,11 @@
+body {
+    margin: 50px;
+}
+.field {
+    display: block;
+}
+.field>label {
+    display: inline-block;
+    background-color: royalblue;
+    width: 120px;
+}
