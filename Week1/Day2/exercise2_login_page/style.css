@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.left-half {
+    display: inline;
+    width: 50vw;
+    height: 100vh;
+    border: 1px solid blueviolet;
+    background-color: white;
+}
+.right-half {
+    float: right;
+    display: inline;
+    width: 50vw;
+    height: 100vh;
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+}
