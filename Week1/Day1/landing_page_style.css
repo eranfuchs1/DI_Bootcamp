@@ -1,0 +1,84 @@
+body {
+    background-color: lightgray;
+}
+._header {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.left_header_text {
+    display: inline;
+    padding-left: 60px;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+}
+
+.right_header_button{
+    display: inline;
+    margin-left: 70%;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+}
+button {
+    background-color: rgb(54, 54, 230);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.background_image {
+    background: url(https://nereusprogram.org/wp-content/uploads/2019/05/ocean-expanse-min-1920x1285.png) no-repeat 0 70%;
+    height: 400px;
+    width: auto;
+}
+
+.background_image_text {
+    size: 30px;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+
+.input_email {
+    width: 300px;
+}
+
+.sign_up {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.middle {
+    margin: auto;
+    width: 50%;
+}
+
+.signs_container {
+    display: flex;
+    /* align-self: center; */
+    align-items:baseline;
+}
+.signs_div {
+    display: inline-block;
+}
+.signs {
+    font-size: 80px;
+    color: blue;
+    /* margin-inline: 60px; */
+    padding: 40px;
+}
+h3 {
+    text-align: center;
+}
+.wider_gray_text {
+    max-width: 160%;
+    text-align: center;
+    color: gray;
+}
+.spacer {
+    height: 100px;
+}
+.inline_spacer {
+    padding: 40px;
+    display: inline-block;
+}

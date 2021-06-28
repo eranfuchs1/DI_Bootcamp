@@ -1,0 +1,16 @@
+@media screen {
+    
+}
+
+.flag {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+}
+
+.flag_r {
+    background-color: red;
+}
+.flag_b {
+    background-color: blue;
+}
