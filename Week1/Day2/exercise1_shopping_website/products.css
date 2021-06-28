@@ -1,0 +1,25 @@
+body {
+    margin: 10px;
+}
+.product_container {
+    margin: 35px;
+    display:inline-block;
+    text-align: center;
+}
+.product_name {
+    color: royalblue;
+    font-weight: 600;
+}
+.price_primary {
+    color: green;
+    font-size: larger;
+}
+.price_secondary {
+    color: grey;
+}
+button {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: calc(50% - 100px);
+}

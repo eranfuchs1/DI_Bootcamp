@@ -1,13 +1,21 @@
 .icon {
-    width: 20px;
+    width: 30px;
 }
 .nav_bar {
 }
 li {
     display: inline;
 }
+nav {
+    background-color: white;
+    color: blueviolet;
+}
 .links {
     position: absolute;
     left: 70%;
     top: 10px;
+}
+body {
+    margin: 0px;
+    background-color: lavender;
 }
