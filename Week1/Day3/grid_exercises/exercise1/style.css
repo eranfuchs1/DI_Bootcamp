@@ -1,0 +1,47 @@
+* {
+    border: 1px solid black;
+}
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 2fr;
+}
+.blue {
+    background-color: blue;
+}
+.pink {
+    background-color: pink;
+}
+.yellow {
+    background-color: yellow;
+    grid-column: 1 / span 2;
+}
+/* .top-left {
+    grid-column: 1 / span 1;
+    grid-row: span 1;
+}
+.middle-left {
+    grid-row: 2 / span 1;
+    grid-column: span 1;
+}
+.bot-left {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+}
+.top-right{
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 2;
+}
+.middle-right{
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 2;
+}
+.bot-right {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 2;
+}
+.bot {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 3;
+} */
