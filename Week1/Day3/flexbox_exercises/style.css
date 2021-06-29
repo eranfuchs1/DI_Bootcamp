@@ -1,0 +1,32 @@
+/* * {
+    border: 1px solid black;
+} */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.top {
+    width: auto;
+    height: 100px;
+    background-color: blue;
+}
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-self: center;
+}
+.middle {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+}
+.bot {
+    width: auto;
+    height: 100px;
+    background-color: blue;
+}
+.column-spacer {
+    height: 50px;
+}
