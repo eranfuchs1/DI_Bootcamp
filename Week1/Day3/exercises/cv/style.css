@@ -1,0 +1,40 @@
+* {
+    /* border: 1px solid black; */
+}
+body {
+    background-image:linear-gradient(lightblue, lightpink);
+}
+.rounded-container {
+    border-radius: 60px;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    height:600px;
+}
+.right {
+    background-color: lightgray;
+    flex-grow: 10;
+}
+.content {
+    display: grid;
+    justify-content: center;
+}
+.left {
+    background-color: cornflowerblue;
+    flex-grow: 3;
+}
+.profile-picture {
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+}
+p {
+    max-width: 200px;
+    text-align: center;
+}
+.spacer {
+    height: 100px;
+}
