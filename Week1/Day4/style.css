@@ -1,0 +1,12 @@
+.row {
+    border: 1px solid black;
+}
+.col-md-6 {
+    background-color: yellow;
+    border: 2px solid red;
+}
+.col-md-4 {
+    background-color: thistle;
+    border: 5px solid brown;
+    border-radius: 9px;
+}
