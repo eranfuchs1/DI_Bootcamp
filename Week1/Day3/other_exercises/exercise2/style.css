@@ -1,0 +1,48 @@
+* {
+  /* border: 1px solid black; */
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(10, 10fr);
+  grid-template-areas:
+    "header header header"
+    "hero maincontent maincontent"
+    "hero maincontent maincontent"
+    "sidebar maincontent maincontent"
+    "sidebar maincontent maincontent"
+    "sidebar extracontent extracontent"
+    "sidebar extracontent extracontent"
+    "relatedimages relatedimages relatedposts"
+    "relatedimages relatedimages relatedposts"
+    "footer footer footer";
+}
+.Header {
+  grid-area: header;
+  background-color: blue;
+}
+.Hero {
+  grid-area: hero;
+  background-color: blueviolet;
+}
+.MainContent {
+  grid-area: maincontent;
+  background-color: red;
+}
+.ExtraContent {
+  grid-area: extracontent;
+  background-color: yellow;
+}
+.RelatedImages {
+  grid-area: relatedimages;
+  background-color: lime;
+}
+.RelatedPosts {
+  grid-area: relatedposts;
+  background-color: violet;
+}
+.Footer {
+  grid-area: footer;
+  background-color: wheat;
+}
