@@ -16,3 +16,6 @@
 .maxwidth {
     max-width: 100%;
 }
+img {
+    max-height: 200px;
+}
