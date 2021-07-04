@@ -1,0 +1,13 @@
+"345"
+1
+0
+5
+"JavaScript"
+"  "
+" 0"
+false
+true
+true
+true
+-1
+error
