@@ -21,3 +21,9 @@ while (people.length > 0) {
 	}
 }
 console.log(cpy);
+
+people = ["Greg", "Mary", "Devon", "James"];
+console.log(people.indexOf('Mary'));
+console.log(people.indexOf('Foo'));
+last = people[people.length - 1];
+
