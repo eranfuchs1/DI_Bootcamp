@@ -1,0 +1,10 @@
+.drag {
+	display: inline-block;
+	border: 1px solid black;
+}
+.drop {
+	display: inline-block;
+	background-color: red;
+	height: 30px;
+	border: 1px solid black;
+}
