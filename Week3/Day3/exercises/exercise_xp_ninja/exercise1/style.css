@@ -1,0 +1,26 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: lightblue;
+}
+.initial_box {
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.box {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+.box_anim {
+	top: 35px; left: 35px;
+	animation: mymove 0.6s ease;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+}
+@keyframes mymove {
+	from {transform: scale(0); background-color: blue; opacity: 0;} 
+}

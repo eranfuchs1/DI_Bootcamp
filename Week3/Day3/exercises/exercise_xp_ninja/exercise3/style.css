@@ -1,0 +1,23 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+div {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+.blue {
+	animation: border_animation_blue 1.6s ease;
+}
+.yellow {
+	animation: border_animation_yellow 1.6s ease;
+}
+@keyframes border_animation_blue {
+	from {transform: scale(0); border-radius: 40px; border: 1px solid blue;}
+	to {border-radius: 3px; border: 15px solid rgba(100,200,70,0.3);}
+}
+@keyframes border_animation_yellow {
+	from {transform: scale(0); border-radius: 40px; border: 1px solid yellow;}
+	to {border-radius: 3px; border: 15px solid rgba(100,20,170,0.3);}
+}
