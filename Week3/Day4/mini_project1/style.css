@@ -1,0 +1,82 @@
+.box {
+	float: left;
+	background-color: white;
+	width:5px;
+	height: 10px;
+}
+.container_all {
+	height: 620px;
+	width: 900px;
+	background-color: gray;
+	display: grid;
+	gap: 1px;
+	padding: 1px;
+	grid-template-areas:
+	"palette palette canvas canvas canvas"
+	"palette palette canvas canvas canvas"
+	"palette palette canvas canvas canvas"
+	"palette palette canvas canvas canvas"
+	"palette palette canvas canvas canvas";
+}
+.container {
+	grid-area: canvas;
+	height: 600px;
+	grid-template-rows: repeat(auto-fit, 5px);
+	grid-template-columns: repeat(100, 1fr);
+	background-color: gray;
+	margin: 1px;
+}
+.palette {
+	min-width: 200px;
+	grid-area: palette;
+	background-color: gray;
+	display: grid;
+	gap: 4px;
+	padding: 10px;
+	grid-template-areas:
+	"clear clear clear"
+	"color0 color1 color2"
+	"color0 color1 color2"
+	"color3 color4 color5"
+	"color3 color4 color5"
+	"color6 color7 color8"
+	"color6 color7 color8"
+	"color9 color9 color9"
+	"color9 color9 color9";
+}
+.palette-box {
+	flex-grow: 1;
+}
+.color0 {
+	grid-area: color0;
+}
+.color1 {
+	grid-area: color1;
+}
+.color2 {
+	grid-area: color2;
+}
+.color3 {
+	grid-area: color3;
+}
+.color4 {
+	grid-area: color4;
+}
+.color5 {
+	grid-area: color5;
+}
+.color6 {
+	grid-area: color6;
+}
+.color7 {
+	grid-area: color7;
+}
+.color8 {
+	grid-area: color8;
+}
+.color9 {
+	grid-area: color9;
+}
+.clear {
+	grid-area: clear;
+}
