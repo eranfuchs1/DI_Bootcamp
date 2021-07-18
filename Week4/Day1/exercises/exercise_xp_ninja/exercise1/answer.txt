@@ -1,0 +1,4 @@
+python can be called in any directory, because the PATH environment variable contains the "python" executable directory,
+and searches that directory until it finds a "python" executable, then executes it in the current directory.
+That's unless the PATH variable doesn't have the directory with the python executable.
+export PATH="$PATH:<directory containing the python executable file>" will solve this on bash terminal.
