@@ -23,7 +23,7 @@ def compare_random(num):
     else:
         print(f'fail! num1 : {num}, num2: {num2}')
 
-#compare_random(2)
+compare_random(2)
 
 def make_shirt(size, text):
     print(f'size: {size}, text: {text}')
