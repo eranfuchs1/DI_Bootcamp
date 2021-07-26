@@ -6,7 +6,7 @@ def columns(content):
 
 def check_over(content):
     result = f"{content} {angles(content)} {columns(content)}"
-    print(result)
+    #print(result)
     return 1 if 'xxx' in result else 2 if 'ooo' in result else 0
 
 content = ' ' * 9
@@ -30,6 +30,7 @@ template = '''
 *****************************
 '''
 
+print(template.format(*content))
 
 for i in range(9):
     symbol = 'x' if i % 2 == 0 else 'o'
