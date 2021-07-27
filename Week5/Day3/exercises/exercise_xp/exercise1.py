@@ -1,0 +1,2 @@
+print(abs, int, input)
+
