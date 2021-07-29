@@ -1,0 +1,8 @@
+A class is a blueprint definition of objects, with properties and methods defined
+An instance (of a class) is an object which gets all the defined methods and attriutes of the class
+Encapsulation means limiting access from outside to some implementation details
+Abstraction means that as a user of some class or object, I don't need to know the implementation, only how to use it.
+Inheritance is when a class inherits from another class (which is now its super class), and all the definitions of methods and properties are passed to the inheriting class (but can be overriden).
+Multiple inheritance is when a class inherits from multiple classes (the left-most class that is pass is the most determining class in regards to overwritting).
+Polymorphism means the same form (for example same method name) but with different implementations for classes.
+MRO will determine which method will be called when dealing with inheritance
