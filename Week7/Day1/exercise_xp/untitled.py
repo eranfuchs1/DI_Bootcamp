@@ -101,11 +101,24 @@ def bar_plot(df):
 
 bar_plot(df_mpg)
 
+
 def line_plot(df):
-    df.dropna(inplace=True)
-    diffs = np.diff(np.array(df.sort_values('model_year')['weight']))
-    array = np.array(np.array(df.sort_values('model_year')['model_year']))[:-1]
+    diffs = np.insert(np.diff(np.array(df.sort_values('model_year')['weight'])), values=[0], obj=0)
+    print(diffs)
+    array = np.array(np.array(df.sort_values('model_year')['model_year']))
     plt.plot(array, diffs)
     plt.show()
 
 line_plot(df_mpg)
+
+def my_plot(df):
+    sorted_vals = df.sort_values('acceleration')
+    acceleration = np.array(sorted_vals['acceleration'])
+    weight = np.array(sorted_vals['horsepower'])
+    plt.scatter(acceleration, weight)
+    plt.xlabel('acceleration')
+    plt.ylabel('weight')
+    plt.grid()
+    plt.show()
+
+my_plot(df_mpg)
