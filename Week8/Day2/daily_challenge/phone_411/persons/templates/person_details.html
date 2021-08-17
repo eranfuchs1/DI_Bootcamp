@@ -1,0 +1,20 @@
+{% if person %}
+<h2>
+	{{person.name}}
+</h2>
+<ul>
+	<li>
+		{{person.phone_number}}
+	</li>
+	<li>
+		{{person.address}}
+	</li>
+	<li>
+		{{person.email}}
+	</li>
+</ul>
+{% else %}
+<h3>
+	no person found by {{detail}} of {{detail_data}}
+</h3>
+{% endif %}
