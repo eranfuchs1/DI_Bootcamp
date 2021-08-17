@@ -1,0 +1,5 @@
+{% block header %}
+{% endblock header %}
+{% for item in animals %}
+{% include "animal.html" with animal=item %}
+{% endfor %}
