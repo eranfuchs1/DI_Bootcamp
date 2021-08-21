@@ -1,0 +1,6 @@
+{% for group in groups %}
+<h2>
+	{{group.name}}
+</h2>
+{% include 'vehicle_all.html' with vehicles=group.vehicles %}
+{% endfor %}
