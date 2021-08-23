@@ -1,0 +1,14 @@
+{% extends 'partials/base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock title %}
+{% block content %}
+{% include 'partials/navbar.html' %}
+{% for film in object_list %}
+{{ film.title }}
+{{ film.director.first_name }}
+{{ film.director.last_name }}
+<br>
+{% endfor %}
+{% endblock content %}

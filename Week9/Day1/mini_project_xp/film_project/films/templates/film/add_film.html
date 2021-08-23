@@ -1,0 +1,9 @@
+{% extends '../partials/base.html' %}
+{% block content %}
+{% include '../partials/navbar.html' %}
+<form method="POST">
+{{form}}
+{% csrf_token %}
+<input type="submit" value="submit">
+</form>
+{% endblock content %}
