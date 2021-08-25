@@ -9,6 +9,27 @@
 {{ film.title }}
 {{ film.director.first_name }}
 {{ film.director.last_name }}
+{% if request.user.is_superuser %}
+<a href="{% url 'delete_film' film.id %}">delete</a>
+{% endif %}
+{% if comment_form %}
+<form action="{% url 'comment_film' film.id %}" method="post">
+{% csrf_token %}
+{{comment_form}}
+</form>
+{% endif %}
+
+{% if rate_form %}
+{#<form action="{% url 'rate_submit' %}" method="post">#}
+{% csrf_token %}
+{{rate_form}}
+{% endif %}
+
+
+
+{% for comment in film.comments.all %}
+<p>{{comment}}</p>
+{% endfor %}
 <br>
 {% endfor %}
 {% endblock content %}

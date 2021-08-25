@@ -1,0 +1,4 @@
+{% if request.user.is_superuser %}
+{% block superuser_block %}
+{% endblock superuser_block %}
+{% endif %}

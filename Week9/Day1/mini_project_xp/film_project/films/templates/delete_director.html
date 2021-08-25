@@ -1,0 +1,16 @@
+{% extends 'partials/base.html' %}
+
+{% block title %}
+{{title}}
+{% endblock title %}
+{% block content %}
+{% include 'partials/navbar.html' %}
+{% for director in object_list %}
+{{ director.first_name }}
+{{ director.last_name }}
+{% if request.user.is_superuser %}
+<a href="{% url 'delete_director' director.id %}">delete</a>
+{% endif %}
+<br>
+{% endfor %}
+{% endblock content %}
