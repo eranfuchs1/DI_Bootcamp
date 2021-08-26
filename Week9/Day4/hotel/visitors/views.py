@@ -6,3 +6,4 @@ from django.views.generic.edit import CreateView
 
 class SignupView(CreateView):
     form_class = UserSignupForm
+    template_name = 'signup.html'
