@@ -7,8 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    {% include 'messages.html' %}
-    {% block content %}
-    {% endblock content %}
+    
+<form action="" method="POST">
+{{form}}
+{% csrf_token %}
+<input type="submit" value="submit">
+</form>
 </body>
 </html>
+

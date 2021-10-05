@@ -14,7 +14,7 @@ class AddDirectorForm(ModelForm):
 
 
 class CommentFilmForm(forms.Form):
-    comments = forms.CharField()
+    comments = forms.CharField(widget=forms.Textarea)
 
 class RateFilmForm(ModelForm):
     class Meta:
